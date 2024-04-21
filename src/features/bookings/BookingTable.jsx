@@ -11,6 +11,8 @@ function BookingTable() {
 
   if (!bookings) return <Empty resourceName="bookings" />;
 
+  console.log(">>> check bookings", bookings);
+
   return (
     <Menus>
       <Table columns="0.6fr 2fr 2.4fr 1.4fr 1fr 3.2rem">
